@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+body.claro {
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+body.escuro {
+    background-color: #111;
+    color: #fff;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+main {
+    padding: 30px;
+}
+
+/* botao */
+button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* temaclaro */
+body.claro {
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+body.claro header {
+    background-color: #ddd;
+}
+
+body.claro button {
+    background-color: #111;
+    color: #fff;
+}
+
+/* tema escuro */
+body.escuro {
+    background-color: #111;
+    color: #fff;
+}
+
+body.escuro header {
+    background-color: #000;
+}
+
+body.escuro button {
+    background-color: #f4f4f4;
+    color: #111;
+}
+button {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+body.claro button {
+    background-color: #111;
+    color: white;
+}
+
+body.escuro button {
+    background-color: #f4f4f4;
+    color: #111;
+}
